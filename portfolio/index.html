@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#about-me">About</a><a href="#qualifications">Qualifications</a><a href="#hobbies">Hobbies</a><a href="#technologies">Technologies</a><a 
+        href="#contact-me">Contact</a>
+    </nav>
+  </header>
+  <main class="container">
+    <article class="intro">
+      <img id="profile-image" src="Gaurav.jpg" alt="Profile image - Gaurav" />
+      <h1>Hi, I'm Gaurav</h1>
+      <p>I am a <span id="dynamic-text" class="dynamic-text-color"></span></p>
+      <p class="social-links">
+        <a href="https://twitter.com/gaurav_sen_" target="_blank">
+          <img width="30" height="30" src="https://www.iconpacks.net/icons/1/free-icon-twitter-135.png" alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/gauravs3n" target="_blank">
+          <img width="30" height="30" src="https://www.iconpacks.net/icons/1/free-icon-linkedin-130.png" alt="" />
+        </a><a href="https://www.instagram.com/gaurav.sen_/" target="_blank">
+          <img width="30" height="30" src="https://www.iconpacks.net/icons/3/free-icon-instagram-logo-8869.png"
+            alt="" />
+        </a>
+      </p>
+    </article>
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>A Software Engineer by profession with 9 years of industry experience.</p>
+      <p>In 2020 I started tutoring as a hobby. A way to earn a passive side income.</p>
+
+      <p>
+        After receiving positive feedback from a large number of students, I took it up more actively. It gives me
+        immense joy to see my students succeed and grow with the skills that I've taught them.
+      </p>
+
+      <p>
+        This website is an attempt to share my knowledge and experience. I'm willing to share my knowledge and
+        experience with you. Are you willing to learn?
+      </p>
+    </section>
+
+    <section id="qualifications">
+      <h2>Qualifications</h2>
+      <ol>
+        <li>BE Computer</li>
+        <li>CDAC - Wireless and Mobile Computing</li>
+      </ol>
+    </section>
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Swimming</li>
+        <li>Listening to Music</li>
+        <li>Drawing</li>
+      </ul>
+    </section>
+    <div id="technologies">
+      <h2>Technologies</h2>
+      <table>
+        <tr>
+          <th>Frontend</th>
+          <th>Backend</th>
+          <th>Database</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>NodeJS</td>
+          <td>MySQL</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Rails</td>
+          <td>Mongo DB</td>
+        </tr>
+        <tr>
+          <td>JS</td>
+          <td>Asp.NET</td>
+          <td>Postgres</td>
+        </tr>
+      </table>
+    </div>
+
+    <section id="contact-me">
+      <form action="" name="contact" method="post" id="contact">
+        <h1>Contact Me</h1>
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstNmae" required id="firstName">
+        </div>
+        <div>
+          <label for="lastName">Last Name</label>
+          <input type="text" name="lastNmae" required id="lastName">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    Made with ❤️ Devnest
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
